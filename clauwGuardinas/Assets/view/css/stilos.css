@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.menu {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.site-title {
+  align-content: center;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.my-span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  align-content: center;
+  margin: 0;
+  font-size: 1.7em;
+}
+
+.toggle {
+  border: none;
+  color: #000000;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item li {
+  margin: 0;
+  align-content: center;
+}
+
+.ite a {
+  color: #ffffff;
+  text-decoration: none;
+  align-content: center;
+  margin: 0;
+}
+
+.item a:hover {
+  background-color: #999999e3;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: url(/Assets/view/img/mascota-heroe.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.hero-text p {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-flex;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #113849;
+  text-decoration: none;
+  border-radius: 5px;
+  align-content: center;
+}
+
+.hero-image img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  background-color: #113849;
+  padding: 10px 0;
+}
+
+.content h2 {
+  text-align: left;
+  margin: 5%;
+  height: auto;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.content p {
+  text-align: left;
+  margin: 0% 5%;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+}
+
+.enlaces {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.enlaces li {
+  margin: 0;
+}
+
+.enlaces a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5%;
+  color: rgb(255, 255, 255);
+}
+
+.info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.info li {
+  margin: 0;
+}
+
+.info a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5%;
+  color: rgb(255, 255, 255);
+}
+
+.ubic img {
+  width: 40px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ubic a {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.ubic a:hover {
+  transform: scale(1.2);
+  background: #113849;
+}
+
+.ubic li {
+  float: left;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+
+.hr-style {
+  border: solid 2px white;
+}
